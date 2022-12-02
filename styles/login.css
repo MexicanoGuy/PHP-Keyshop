@@ -1,0 +1,46 @@
+body{
+    font-family: 'Joan', serif;
+    background-color: #4392f1;
+}
+#Container{
+    margin-top: 10%;
+    margin-left: 40%;
+    /* display:grid; */
+}
+h1{
+    margin-left: -10px;
+    font-size: 70px;
+}
+.text{
+    fill: none;
+    font-size: 19px;
+    margin-top: 10px;
+    display: grid;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    background-color: #B8DBD9;
+    color: #292A2F;
+}
+.text:focus{
+    outline: none;
+}
+#submit{
+    color: black;
+    font-size: 19px;
+    border: transparent;
+    border-radius: 9px;
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+}
+#registerHref{
+    font-size: 20px;
+    text-decoration: none;
+    /* margin-left: 25px; */
+    color: #5041bd;
+}
+#registerHref:hover{
+    color: #d77469;
+}
